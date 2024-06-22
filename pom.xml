@@ -17,7 +17,7 @@
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
     <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
     <jkube.version>1.8.0</jkube.version>
-    <jkube.generator.name>marcnuri/task-manager:latest</jkube.generator.name>
+    <jkube.generator.name>badersolutions/task-manager:latest</jkube.generator.name>
     <jkube.createExternalUrls>true</jkube.createExternalUrls>
     <jkube.domain>192.168.49.2.nip.io</jkube.domain>
     <postgresql.serviceName>postgresql</postgresql.serviceName>
@@ -146,7 +146,7 @@
             <configuration>
               <images>
                 <image>
-                  <name>marcnuri/task-manager:fly</name>
+                  <name>badersolutions/task-manager:fly</name>
                   <build>
                     <dockerFile>${project.basedir}/Dockerfile.fly</dockerFile>
                     <assembly>
